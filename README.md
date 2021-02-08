@@ -46,15 +46,13 @@ function Countt($str)
 
     echo "Number : " , $number ,"\n"; 
 
-    echo "Special characters : ", $special ; 
+    echo ucwords($str_first_cap);     
+
+echo ucfirst($str_cap_one);
 } 
+   
 
-  
-
-    // Driver Code 
-
-    $str = "EduCatiON"; 
+ $str = "EduCatiON"; 
 
     Countt($str); 
- 
 ?>
